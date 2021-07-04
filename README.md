@@ -5,6 +5,19 @@
 
 ![image](https://user-images.githubusercontent.com/54015319/124367560-2db3e680-dc93-11eb-81b0-5dbb4a602426.png)
 
+## I2C
+### mpu6050
+
+1. ピン配置
+
+| mpu6050  | Pico |
+-------    | -------  
+| SDA      | GP18  |
+| SCL      | GP19  |
+| VCC      | GP36(3.3V) |
+| GND      | GP3(GND) |
+
+
 ## UART
 
 
@@ -99,4 +112,5 @@ uart.write(str(longitude))
  文字列にする必要がある
 
 ## 参考ページ
+gps<br>
 / https://github.com/ahmadlogs/raspberry-pi-pico-micropython/blob/main/gps-rpi-pico/gps-rpi-pico.py
