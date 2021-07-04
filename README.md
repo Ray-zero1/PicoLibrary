@@ -47,9 +47,8 @@ gps_module = UART(0, baudrate=9600, tx=Pin(0), rx=Pin(1))
 
 ＜最初のみ＞
 
-ア）Twe-Lite　Stage APPをダウンロードする
-https://mono-wireless.com/jp/products/stage/index.html
-
+ア）Twe-Lite　Stage APPをダウンロードする<br>
+https://mono-wireless.com/jp/products/stage/index.html　
 イ）パソコンとMonoStickを繋ぎ、Twe-Lite Stageを立ち上げる<br>
 ウ）シリアルポート選択において、MonoStickを選択<br>
 エ）アプリ書換でApp_UARTを選択<br>
