@@ -70,6 +70,7 @@ Twe-Lite RにTwe-Lite　Dipをつける<br>
 　1. i を選択し、子機の場合は、120を選択<br>
 　2. cを選択し、親機と子機でchannnelを合わせる<br>
 　3. mを選択し、UARTモードをDに設定する<br>
+　4. bを選択し、GPSの場合は、baudrateを9600にする
 
 ＜通常＞
 
