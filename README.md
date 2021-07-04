@@ -97,3 +97,6 @@ uart.write(str(longitude))
  
  数字は送れない
  文字列にする必要がある
+
+## 参考ページ
+/ https://github.com/ahmadlogs/raspberry-pi-pico-micropython/blob/main/gps-rpi-pico/gps-rpi-pico.py
