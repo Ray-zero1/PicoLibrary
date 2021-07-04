@@ -94,5 +94,6 @@ uart.write(str(gpsTime))
 uart.write(str(latitude))
 uart.write(str(longitude)) 
  ` ` ` 
+ 
  数字は送れない
  文字列にする必要がある
