@@ -122,5 +122,8 @@ uart.write(str(longitude))
  文字列にする必要がある
 
 ## 参考ページ
+超音波センサ<br>
+/ https://hellobreak.net/raspberry-pi-pico-ultrasonic-distance/
+
 gps<br>
 / https://github.com/ahmadlogs/raspberry-pi-pico-micropython/blob/main/gps-rpi-pico/gps-rpi-pico.py
