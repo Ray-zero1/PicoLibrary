@@ -4,6 +4,17 @@
 ## ピン配置
 
 ![image](https://user-images.githubusercontent.com/54015319/124367560-2db3e680-dc93-11eb-81b0-5dbb4a602426.png)
+## SDcard
+1. ピン配置
+
+| sd | Pico(SPI1) |
+-------    | -------  
+| Cds(2)     | GP13  |
+| MISO(3)     | GP11 |
+| VCC(4)      | GP36(3.3V) |
+| SCK(5)     | GP10 |
+| GND (6)     | GP3(GND) |
+| MOSI(7)      | GP12 |
 
 ## 超音波センサ
 1. ピン配置
