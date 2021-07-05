@@ -5,6 +5,16 @@
 
 ![image](https://user-images.githubusercontent.com/54015319/124367560-2db3e680-dc93-11eb-81b0-5dbb4a602426.png)
 
+## 超音波センサ
+1. ピン配置
+
+| 超音波センサ| Pico |
+-------    | -------  
+| trig      | GP14  |
+| echo      | GP15  |
+| VCC      | GP40(VBUS) |
+| GND      | GP3(GND) |
+
 ## I2C
 ### mpu6050
 
