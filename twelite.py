@@ -5,7 +5,7 @@ import utime, time
 
 #ピン設定
 gps_module = UART(0, baudrate=9600, tx=Pin(0), rx=Pin(1))
-uart = UART(1,baudrate=9600,tx=Pin(4),rx=Pin(5))
+uart = UART(1,baudrate=115200,tx=Pin(4),rx=Pin(5))
 #print gps module connection details
 print(gps_module)
 
