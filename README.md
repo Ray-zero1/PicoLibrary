@@ -4,6 +4,30 @@
 ## ピン配置
 
 ![image](https://user-images.githubusercontent.com/54015319/124367560-2db3e680-dc93-11eb-81b0-5dbb4a602426.png)
+
+##INA219
+1. ピン配置
+
+| ina219  | Pico |
+-------    | -------  
+| SDA      | GP7  |
+| SCL      | GP8  |
+| VCC      | GP36(3.3V) |
+| GND      | GP3(GND) |
+
+## フォトダイオード
+1. ピン配置
+
+| PhotoIC | Pico(ADC2) |
+-------    | -------  
+| カソード     | GP36 |
+| アノード     | 1kΩ，GP34 |
+| 1kΩ | GND |\
+
+![image](https://user-images.githubusercontent.com/54015319/129685051-cd29f472-2598-422d-b0fa-ba00b70417aa.png
+)
+カソード(K)に＋電位が加わるようにバイアスして接続し、アノード(A)に負荷抵抗1KΩを接続する。負荷抵抗と並列にコンデンサを入れると高周波成分除去用のローパスフィルタになる。
+
 ## SDcard
 1. ピン配置
 
@@ -21,8 +45,8 @@
 
 | 超音波センサ| Pico |
 -------    | -------  
-| trig      | GP14  |
-| echo      | GP15  |
+| trig      | GP12  |
+| echo      | GP13  |
 | VCC      | GP40(VBUS) |
 | GND      | GP3(GND) |
 
@@ -48,7 +72,7 @@
 | ---- | ---- |
 | RX   | GP0  |
 | TX   | GP1  |
-| VCC  | GP40(VBUS) |
+| VCC  | GP36(3.3V) |
 | GND  | GP3(GND) |
 
 2. プログラム
@@ -133,6 +157,9 @@ uart.write(str(longitude))
  文字列にする必要がある
 
 ## 参考ページ
+フォトダイオード<br>
+/ http://arms22.blog91.fc2.com/blog-entry-416.html
+
 超音波センサ<br>
 / https://hellobreak.net/raspberry-pi-pico-ultrasonic-distance/
 
