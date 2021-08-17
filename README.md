@@ -5,13 +5,13 @@
 
 ![image](https://user-images.githubusercontent.com/54015319/124367560-2db3e680-dc93-11eb-81b0-5dbb4a602426.png)
 
-##INA219
+## INA219
 1. ピン配置
 
 | ina219  | Pico |
 -------    | -------  
-| SDA      | GP7  |
-| SCL      | GP8  |
+| SDA      | GP8  |
+| SCL      | GP9  |
 | VCC      | GP36(3.3V) |
 | GND      | GP3(GND) |
 
