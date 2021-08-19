@@ -1,5 +1,5 @@
 import _thread
-from machine import Pin, UART, I2C, ADC, Timer
+from machine import Pin, UART, I2C, ADC, Timer, SPI
 import utime, time
 from mpu6050 import MPU6050
 import os
