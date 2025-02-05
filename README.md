@@ -1,5 +1,5 @@
 # Raspberry pi pico
-
+Picoを使用して電子部品を動作させるためのもろもろ
 
 ## ピン配置
 
